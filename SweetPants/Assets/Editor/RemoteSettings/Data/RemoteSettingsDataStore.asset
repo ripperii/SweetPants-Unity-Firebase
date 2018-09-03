@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e893c667724814cbbae306609c3635, type: 3}
+  m_Name: RemoteSettingsDataStore
+  m_EditorClassIdentifier: 
+  rsKeyList:
+  - key: ShopTimer
+    value: 900
+    type: int
+  - key: Starting_Gold_Amount
+    value: 1000
+    type: int
+  - key: Levels_1-10
+    value: '{"k":"1","v":50},{"k":"2","v":100},{"k":"3","v":200},{"k":"4","v":350},{"k":"5","v":600},{"k":"6","v":1000},{"k":"7","v":1500},{"k":"8","v":2200},{"k":"9","v":3000},{"k":"10","v":4000}'
+    type: string
+  - key: Starting_Diamonds_Amount
+    value: 50
+    type: int
+  - key: AdventurerUrl
+    value: https://us-central1-sweetpants-f86be.cloudfunctions.net/app/adventurer
+    type: string
+  - key: ServerTimeUrl
+    value: https://us-central1-sweetpants-f86be.cloudfunctions.net/app/date?format=x
+    type: string
